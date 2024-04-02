@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +11,6 @@ public class EliudsEggsTest {
                 .isEqualTo(0);
     }
 
-    @Disabled("Remove to run test")
     @Test
     @DisplayName("1 egg")
     public void test1Egg() {
@@ -20,7 +18,6 @@ public class EliudsEggsTest {
                 .isEqualTo(1);
     }
 
-    @Disabled("Remove to run test")
     @Test
     @DisplayName("4 eggs")
     public void test4Eggs() {
@@ -28,7 +25,6 @@ public class EliudsEggsTest {
                 .isEqualTo(4);
     }
 
-    @Disabled("Remove to run test")
     @Test
     @DisplayName("13 eggs")
     public void test13Eggs() {
